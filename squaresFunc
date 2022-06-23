@@ -1,0 +1,10 @@
+	public static int squares(int a, int b) {
+		int ret = 0;
+		for (int i = a; i <= b; i++) {
+			double x = Math.sqrt((double)i);
+			if ((int) x == x) {
+				ret++;
+			}		
+		}
+		return ret;
+	}
